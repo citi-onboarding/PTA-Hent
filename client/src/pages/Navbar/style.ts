@@ -6,7 +6,6 @@ export const Header = styled.div`
   align-items: center;
   width: 100%;
   padding-top: 55px;
-
   align-content: center;
 `;
 
@@ -37,10 +36,8 @@ export const ListElement = styled.li`
 `;
 export const Content = styled.div`
   display: flex;
-
   gap: 67px;
   text-align: left;
   width: 60%;
-
   align-items: center;
 `;
