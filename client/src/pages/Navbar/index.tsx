@@ -29,7 +29,7 @@ export default function Navbar() {
         height="37px"
         text="Acesse a HentSign"
         width="266px"
-        fontWeight="700px"
+        fontWeight="bold"
         onClick={onclick}
       ></Button>
     </Header>

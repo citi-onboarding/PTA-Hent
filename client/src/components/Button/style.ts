@@ -9,16 +9,15 @@ interface PropsInterface {
   };
 }
 export const StyledButton = styled.button<PropsInterface>`
+  font: inherit;
   width: ${(props: PropsInterface) => props.styles.width};
   height: ${(props: PropsInterface) => props.styles.height};
   color: ${(props: PropsInterface) => props.styles.color};
   background-color: ${(props: PropsInterface) => props.styles.backgroundColor};
   font-weight: ${(props: PropsInterface) => props.styles.fontWeight};
-
   border-radius: 6px;
   border: none;
   padding: 0;
-  font: inherit;
   cursor: pointer;
   outline: inherit;
 `;
