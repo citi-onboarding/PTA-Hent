@@ -20,14 +20,15 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.colors.background};
-    color: ${(props) => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
-    -webkit-font-smoothing: antialiased;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
-    font-family: sans-serif;
+    background: ${(props) => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.primary};
+    font: 400 16px Roboto, 'DM Sans';
+    -webkit-font-smoothing: antialiased;
   }
 
   button {
