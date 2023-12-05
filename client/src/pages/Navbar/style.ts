@@ -30,7 +30,7 @@ export const ListElement = styled.li`
   color: inherit;
   border: none;
   padding: 0;
-  font: inherit;
+  font: 16px;
   cursor: pointer;
   outline: inherit;
 `;
