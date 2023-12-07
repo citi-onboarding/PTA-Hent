@@ -1,3 +1,3 @@
-import LogoCITi from "./Logo.png";
+import Hent from "./hent.svg";
 
-export { LogoCITi };
+export { Hent };
