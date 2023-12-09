@@ -9,8 +9,10 @@ export const Footer = () => {
                 <TextAndLogo>
                     <HentLogo src={Hent.src} alt="Logo-hent"></HentLogo>
                     <BoxText>
-                        A Hent é uma empresa líder em soluções de gestão financeira e recebíveis para loteadores e incorporadoras. Com tecnologia inovadora,
-                        automatizamos processos, proporcionando eficiência e agilidade.
+                        <p>
+                            A Hent é uma empresa líder em soluções de gestão financeira e recebíveis para loteadores e incorporadoras. Com tecnologia inovadora,
+                            automatizamos processos, proporcionando eficiência e agilidade.
+                        </p>
                     </BoxText>
                 </TextAndLogo>
 
@@ -30,9 +32,9 @@ export const Footer = () => {
                 <Media>
                     <h4>Siga nossas redes</h4>
                     <BoxMedias>
-                        <Social src={Facebook.src} alt="Facebook-logo"></Social>
-                        <Social src={Instagram.src} alt="Instagram-logo"></Social>
-                        <Social src={Youtube.src} alt="Youtube-logo"></Social>
+                        <Social type="button"><img src={Facebook.src} alt="Facebook"></img></Social>
+                        <Social type="button"><img src={Instagram.src} alt="Instagram"></img></Social>
+                        <Social type="button"><img src={Youtube.src} alt="Youtube"></img></Social>
                     </BoxMedias>
                     <HentInfo>
                         <p>CNPJ: 35.429.428/0001-39 © Copyright 2023 Hent.</p>

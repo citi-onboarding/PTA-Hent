@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
+//  Footer total
 export const FooterPage = styled.div`
     display: flex;
     align-items: center;
-    align content: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
+    height: 408px;
     background-color: #3A4CF1;
 `;
 
+// Div que contém as informações presentes no footer
 export const MainContent = styled.div`
     display: flex;
     justify-content: space-between;
@@ -16,35 +18,34 @@ export const MainContent = styled.div`
 
     width: 1120px;
     height: 231px;
-    margin-top: 100px;
-    margin-left: 139px;
-    margin-right: 141px;
-    margin-bottom: 77px;
 `;
     
+// Caixa onde fica o texto que explica o que é a Hent.
 export const BoxText = styled.div`
-    display: flex;
-    flex-flow: row wrap;
-    // background-color: green;
     height: 154px;
     width: 256px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
+    p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        color: white;
+    }
 `;
 
 export const HentLogo = styled.img`
     width: 171px;
     height: 43px;
+    margin-bottom: 34px;
 `;
 
 export const TextAndLogo = styled.div`
     display: flex;
     height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-flow: column wrap;
 `;
 
+// Topico institucional
 export const BoxTopic1 = styled.div`
     display: flex;
     flex-direction: column;
@@ -65,13 +66,16 @@ export const BoxTopic1 = styled.div`
     }
 `;
 
+// HentSign
+// OBS: Coloquei 2 divs diferentes para os tópicos por causa do espaçamento entre cada texto, para ficar o mais próximo possível do protótipo.
 export const BoxTopic2 = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 35px;
     height: 100%;
     
     a {
+        display: inline-block;
         font-size: 16px;
         font-weight: 400;
         color: white;
@@ -85,18 +89,7 @@ export const BoxTopic2 = styled.div`
     }
 `;
 
-export const HentInfo = styled.div`
-    display: flex;
-    flex-flow: row wrap;
-    width: 187px;
-    text-align: center;
-    
-    p {
-        color: white;
-        font-size: 15px;
-    }
-`;
-
+// Div que engloba as redes sociais da Hent e suas informações.
 export const Media = styled.div`
     display: flex;
     flex-direction: column;
@@ -109,6 +102,20 @@ export const Media = styled.div`
     }
 `;
 
+// Informações sobre a Hent.
+export const HentInfo = styled.div`
+    display: flex;
+    flex-flow: row wrap;
+    width: 187px;
+    text-align: center;
+    
+    p {
+        color: white;
+        font-size: 15px;
+    }
+`;
+
+// Redes sociais da Hent.
 export const BoxMedias = styled.div`
     display: flex;
     justify-content: space-between;
@@ -118,7 +125,13 @@ export const BoxMedias = styled.div`
     padding-bottom: 34px;
 `;
 
-export const Social = styled.img`
+export const Social = styled.button`
     height: 20px;
-    width: 20.06px;
+    width: 21px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    img {
+        width: 100%;
+        height: 100%;
+    }
 `;
