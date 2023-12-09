@@ -20,13 +20,22 @@ export const MainContent = styled.div`
     margin-left: 139px;
     margin-right: 141px;
     margin-bottom: 77px;
-    // background-color: red;
 `;
     
 export const BoxText = styled.div`
+    display: flex;
+    flex-flow: row wrap;
+    // background-color: green;
     height: 154px;
     width: 256px;
-    // background-color: green;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+`;
+
+export const HentLogo = styled.img`
+    width: 171px;
+    height: 43px;
 `;
 
 export const TextAndLogo = styled.div`
@@ -34,12 +43,29 @@ export const TextAndLogo = styled.div`
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-
-    // background-color: black;
 `;
 
+export const BoxTopic1 = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+    a:hover {
+        cursor:pointer;
+    }
+    h4 {
+        font-size: 16px;
+        color: white;
+    }
+`;
 
-export const BoxTopics = styled.div`
+export const BoxTopic2 = styled.div`
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -47,6 +73,7 @@ export const BoxTopics = styled.div`
     
     a {
         font-size: 16px;
+        font-weight: 400;
         color: white;
     }
     a:hover {
@@ -94,10 +121,4 @@ export const BoxMedias = styled.div`
 export const Social = styled.img`
     height: 20px;
     width: 20.06px;
-`;
-
-export const HentLogo = styled.img`
-    width: 171px;
-    height: 43px;
-    // background-color: yellow;
 `;
