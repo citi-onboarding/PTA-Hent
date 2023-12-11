@@ -1,13 +1,13 @@
 import React from "react";
 import { FooterPage, MainContent, BoxText, BoxTopic1, BoxTopic2, BoxMedias, Social, HentLogo, TextAndLogo, Media, HentInfo } from "./style";
-import {Hent, Facebook, Instagram, Youtube} from "../../assets"
+import {Hent_Footer, Facebook, Instagram, Youtube} from "../../assets"
 
 export const Footer = () => {
     return(
         <FooterPage>
             <MainContent>
                 <TextAndLogo>
-                    <HentLogo src={Hent.src} alt="Logo-hent"></HentLogo>
+                    <HentLogo src={Hent_Footer.src} alt="Logo-hent"></HentLogo>
                     <BoxText>
                         <p>
                             A Hent é uma empresa líder em soluções de gestão financeira e recebíveis para loteadores e incorporadoras. Com tecnologia inovadora,
