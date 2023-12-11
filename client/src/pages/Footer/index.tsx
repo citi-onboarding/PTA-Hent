@@ -32,9 +32,9 @@ export const Footer = () => {
                 <Media>
                     <h4>Siga nossas redes</h4>
                     <BoxMedias>
-                        <Social type="button"><img src={Facebook.src} alt="Facebook"></img></Social>
-                        <Social type="button"><img src={Instagram.src} alt="Instagram"></img></Social>
-                        <Social type="button"><img src={Youtube.src} alt="Youtube"></img></Social>
+                        <Social target="_blank"><img src={Facebook.src} alt="Facebook"></img></Social>
+                        <Social target="_blank"><img src={Instagram.src} alt="Instagram"></img></Social>
+                        <Social target="_blank"><img src={Youtube.src} alt="Youtube"></img></Social>
                     </BoxMedias>
                     <HentInfo>
                         <p>CNPJ: 35.429.428/0001-39 © Copyright 2023 Hent.</p>

@@ -15,7 +15,7 @@ export const MainContent = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    /* background-color: red; */
     width: 1120px;
     height: 231px;
 `;
@@ -34,15 +34,21 @@ export const BoxText = styled.div`
 `;
 
 export const HentLogo = styled.img`
-    width: 171px;
-    height: 43px;
+    /* width: 171px;
+    height: 43px; */
     margin-bottom: 34px;
+    /* background-color: yellow; */
 `;
 
 export const TextAndLogo = styled.div`
     display: flex;
-    height: 100%;
+    /* height: 100%; */
     flex-flow: column wrap;
+
+    img {    
+        width: 171px;
+        height: 43px;
+    }
 `;
 
 // Topico institucional
@@ -53,6 +59,7 @@ export const BoxTopic1 = styled.div`
     height: 100%;
     
     a {
+        width: max-content;
         font-size: 16px;
         font-weight: 400;
         color: white;
@@ -75,7 +82,8 @@ export const BoxTopic2 = styled.div`
     height: 100%;
     
     a {
-        display: inline-block;
+        // display: inline-block;
+        width: max-content;
         font-size: 16px;
         font-weight: 400;
         color: white;
@@ -125,11 +133,13 @@ export const BoxMedias = styled.div`
     padding-bottom: 34px;
 `;
 
-export const Social = styled.button`
-    height: 20px;
-    width: 21px;
+export const Social = styled.a`
+    width: 25px;
+    height: 18.75px;
+    flex-shrink: 0;
     background-color: rgba(0,0,0,0);
     border: none;
+    cursor: pointer;
     img {
         width: 100%;
         height: 100%;
