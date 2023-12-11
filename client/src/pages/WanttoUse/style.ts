@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
 export const ContentAccess = styled.div`
-  display: flex;
-  width: 100%;
   margin-top: 180px;
-  width: 1400px;
-  height: 437px;
+  width: 100%;
 `;
 
 export const TextSection1 = styled.text`
@@ -27,15 +24,14 @@ export const TextSection2 = styled.text`
 export const Rectangle = styled.div`
   display: flex;
   flex-direction: column;
-  height: 407px;
+  height: 100%;
   background-color: ${(props) => props.theme.colors.primary};
   border-radius: 35px;
   justify-content: center;
   align-items: center;
   justify-items: center;
-  position: absolute;
-  right: 0;
-  left: 0;
+  width: 100%;
+  height: 407px;
 `;
 
 export const Triangle1 = styled.div`

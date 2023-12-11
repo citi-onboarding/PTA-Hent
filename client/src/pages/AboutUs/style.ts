@@ -12,7 +12,7 @@ export const TextContent = styled.div`
   justify-content: center;
   align-items: flex-start;
   padding-right: 192px;
-  padding-left: 159px;
+  padding-left: 90px;
 
   margin-right: -90px;
 `;
@@ -46,14 +46,14 @@ export const TriangleIcon = styled.img`
 export const ImageSignature = styled.img`
   position: relative;
   top: -150px;
-  left: 240px;
+  left: 310px;
   margin-top: 200px;
   box-shadow: 0px 0px 87px 10px rgba(58, 76, 241, 0.76);
 `;
 
 export const ImageDetail = styled.img`
   position: relative;
-  right: 250px;
+  right: 160px;
   top: -10px;
   margin-top: 200px;
   box-shadow: 0px 0px 87px 10px rgba(58, 76, 241, 0.76);
