@@ -1,3 +1,4 @@
+import exp from "constants";
 import styled from "styled-components";
 
 export const Pag = styled.div`
@@ -8,7 +9,7 @@ export const Pag = styled.div`
 `;
 
 // Texto grande do lado da div do formulário
-export const CaixaDoTextoEsq = styled.div`
+export const DixTextLeft = styled.div`
     width: 517px;
     height: 303px;
     margin-top: 145px;
@@ -20,6 +21,25 @@ export const CaixaDoTextoEsq = styled.div`
         font-size: 40px;
         font-weight: 400;
     }
+`;
+
+export const Icon = styled.div`
+    width: 59px;
+    height: 40px;
+    margin-top: 58px;
+    margin-left: 139px;
+    img {
+        width: 59px;
+        height: 40px;
+    }
+`;
+
+
+export const IconAndText = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: max-content;
 `;
 
 // Div que contém o formulário
@@ -67,7 +87,6 @@ export const DoisInputs = styled.div`
     justify-content: space-between;
     width: 530px;
     height: max-content;
-    /* background-color: red; */
     margin-left: 35px;
 `;
 
@@ -105,18 +124,6 @@ export const ButtonTextDiv = styled.div`
     margin-left: 60px;
     width: 408px;
     height: 26px;
-`;
-        
-export const TextoFormCaixa = styled.div`
-    display: flex;
-    flex-flow: row wrap;
-    height: 84px;
-    width: 418px;
-    h1 {
-        color: #606060;
-        font-size: 32px;
-        font-weight: 500;
-    }
 `;
 
 export const Buttons = styled.button`
