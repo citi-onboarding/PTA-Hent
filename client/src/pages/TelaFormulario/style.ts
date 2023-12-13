@@ -1,23 +1,21 @@
-import exp from "constants";
 import styled from "styled-components";
 
 export const Pag = styled.div`
     display: flex;
-    gap: 64px;
+    /* gap: 64px; */
     height: 844px;
     width: 100%;
 `;
 
 // Texto grande do lado da div do formulário
-export const DixTextLeft = styled.div`
+export const DivTextLeft = styled.div`
     width: 517px;
     height: 303px;
-    margin-top: 145px;
-    margin-left: 139px;
-    
     h1 {
+        margin-top: 0px;
         text-align: start;
         color: #1A1A1A;
+        font-family: DM Sans;
         font-size: 40px;
         font-weight: 400;
     }
@@ -26,26 +24,26 @@ export const DixTextLeft = styled.div`
 export const Icon = styled.div`
     width: 59px;
     height: 40px;
-    margin-top: 58px;
-    margin-left: 139px;
     img {
         width: 59px;
         height: 40px;
     }
 `;
 
-
 export const IconAndText = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: start;
     height: max-content;
+    width: 40%;
+    margin-top: 145px;
+    margin-left: 139px;
 `;
 
 // Div que contém o formulário
-export const Nodemailer = styled.div`
+export const Formulario = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     height: 618px;
     width: 600px;
     background-color: #F5F5F5;
@@ -53,7 +51,7 @@ export const Nodemailer = styled.div`
     margin-top: 108px;
     margin-bottom: 118px;
 
-    h1 {
+    h1{
         color: #606060;
         text-align: start;
         font-family: DM Sans;
@@ -70,6 +68,14 @@ export const Nodemailer = styled.div`
         margin-left: 39px;
         margin-top: 9px;
     }
+
+    input::placeholder {
+        color: #AEAEAE;
+        font-size: 16px;
+        font-family: DM Sans;
+        font-weight: 400;
+        padding-left: 20px;
+    }
 `;
 
 export const Inputs1 = styled.input`
@@ -80,6 +86,7 @@ export const Inputs1 = styled.input`
     margin-left: 35px;
     outline: none;
 `;
+
 
 export const DoisInputs = styled.div`
     display: flex;

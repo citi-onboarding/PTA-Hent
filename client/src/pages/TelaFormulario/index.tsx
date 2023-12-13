@@ -1,18 +1,19 @@
 import React from "react";
-import { DixTextLeft, Pag, Nodemailer, Inputs1, Buttons, ButtonTextDiv, DoisInputs, NumTelInput, EmailInput, InputAndText, Icon, IconAndText } from "./style";
-import { IconLosangle } from "../../assets";
+import { DivTextLeft, Pag, Formulario, Inputs1, Buttons, ButtonTextDiv, DoisInputs, NumTelInput, EmailInput, InputAndText, Icon, IconAndText } from "./style";
+import { IconLosangle, Poligono } from "../../assets";
+
 export const TelaForm = () => {
     return(
         <Pag>
             <IconAndText>
-                <DixTextLeft>
+                <DivTextLeft>
                     <h1>Descubra como o HentSign faz você economizar tempo e dinheiro, além de gerar maior eficiência em todas as etapas da venda de loteamentos</h1>
-                </DixTextLeft>
+                </DivTextLeft>
                 <Icon>
                     <img src={IconLosangle.src} alt="Losango"></img>
                 </Icon>
             </IconAndText>
-            <Nodemailer>
+            <Formulario>
                 
                 <h1> Preencha o formulário e veja a transformação do seu negócio: </h1>
 
@@ -30,7 +31,7 @@ export const TelaForm = () => {
                     </InputAndText>
                     <InputAndText>
                         <span>Email*:</span>
-                        <EmailInput type="email" autoComplete="on" placeholder="meuemail@email.com.br"/>
+                        <EmailInput type="email" autoComplete="on" placeholder="meuemail@email.com.br" style={{textDecorationLine: "underline", color: "#AEAEAE"}}/>
                     </InputAndText>
                 </DoisInputs>
 
@@ -46,7 +47,7 @@ export const TelaForm = () => {
                     </ButtonTextDiv>
                 </Buttons>
                 
-            </Nodemailer>
+            </Formulario>
         </Pag>
     );
 }
