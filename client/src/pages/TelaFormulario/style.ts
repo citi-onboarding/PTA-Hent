@@ -2,14 +2,29 @@ import styled from "styled-components";
 
 export const Pag = styled.div`
     display: flex;
-    /* gap: 64px; */
+    gap: 64px;
     height: 844px;
     width: 100%;
+    overflow-x: hidden;
 `;
+export const Triangle = styled.div`
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 760px 702.5px 0;
+    border-color: transparent #3A4CF1 transparent transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+`;
+export const DivTriangle = styled.div`
 
+`;
 // Texto grande do lado da div do formulário
 export const DivTextLeft = styled.div`
-    width: 517px;
+    width: 470px;
     height: 303px;
     h1 {
         margin-top: 0px;
@@ -20,10 +35,10 @@ export const DivTextLeft = styled.div`
         font-weight: 400;
     }
 `;
-
 export const Icon = styled.div`
     width: 59px;
     height: 40px;
+    margin-top: 58px;
     img {
         width: 59px;
         height: 40px;
@@ -35,9 +50,10 @@ export const IconAndText = styled.div`
     flex-direction: column;
     justify-content: start;
     height: max-content;
-    width: 40%;
+    width: 517px;
     margin-top: 145px;
     margin-left: 139px;
+    /* background-color: red; */
 `;
 
 // Div que contém o formulário
@@ -50,7 +66,7 @@ export const Formulario = styled.div`
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     margin-top: 108px;
     margin-bottom: 118px;
-
+    
     h1{
         color: #606060;
         text-align: start;
@@ -60,7 +76,6 @@ export const Formulario = styled.div`
         margin-left: 35px;
         margin-top: 20px;
     }
-
     p {
         color: #606060;
         font-size: 16px;
@@ -68,7 +83,6 @@ export const Formulario = styled.div`
         margin-left: 39px;
         margin-top: 9px;
     }
-
     input::placeholder {
         color: #AEAEAE;
         font-size: 16px;
@@ -86,7 +100,6 @@ export const Inputs1 = styled.input`
     margin-left: 35px;
     outline: none;
 `;
-
 
 export const DoisInputs = styled.div`
     display: flex;

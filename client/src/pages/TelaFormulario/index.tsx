@@ -1,10 +1,11 @@
 import React from "react";
-import { DivTextLeft, Pag, Formulario, Inputs1, Buttons, ButtonTextDiv, DoisInputs, NumTelInput, EmailInput, InputAndText, Icon, IconAndText } from "./style";
-import { IconLosangle, Poligono } from "../../assets";
+import { DivTextLeft, Pag, Formulario, Inputs1, Buttons, ButtonTextDiv, DoisInputs, NumTelInput, EmailInput, InputAndText, Icon, IconAndText, Triangle } from "./style";
+import { IconLosangle } from "../../assets";
 
 export const TelaForm = () => {
     return(
         <Pag>
+            <Triangle />
             <IconAndText>
                 <DivTextLeft>
                     <h1>Descubra como o HentSign faz você economizar tempo e dinheiro, além de gerar maior eficiência em todas as etapas da venda de loteamentos</h1>
@@ -13,6 +14,7 @@ export const TelaForm = () => {
                     <img src={IconLosangle.src} alt="Losango"></img>
                 </Icon>
             </IconAndText>
+            {/* <PoligonoDiv></PoligonoDiv> */}
             <Formulario>
                 
                 <h1> Preencha o formulário e veja a transformação do seu negócio: </h1>
