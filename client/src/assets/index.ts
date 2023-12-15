@@ -7,7 +7,13 @@ import Newspaper from "./newspaper.svg";
 import Key from "./key.svg";
 import Paper from "./paper.svg";
 import Library from "./library.svg";
+import Triangle from "./triangle.svg";
+import Assinatura from "./ImageAboutUs1.svg";
+import Detalhes from "./ImageAboutUs2.svg";
 
+export { Triangle };
+export { Assinatura };
+export { Detalhes };
 export { Newspaper };
 export { Key };
 export { Paper };
@@ -17,4 +23,3 @@ export {Facebook};
 export {Instagram};
 export {Youtube};
 export { Hent };
-

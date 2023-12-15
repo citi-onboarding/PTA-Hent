@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   display: flex;
@@ -11,7 +11,7 @@ export const HomeContainer = styled.div`
 
   h1 {
     font-size: 54px;
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.subject};
     margin-top: 40px;
     text-align: center;
 
