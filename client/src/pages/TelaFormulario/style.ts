@@ -2,26 +2,19 @@ import styled from "styled-components";
 
 export const Pag = styled.div`
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
     gap: 64px;
     height: 844px;
     width: 100%;
     overflow-x: hidden;
+    img {
+        height: max-content;
+        width: max-content;
+    }
 `;
-export const Triangle = styled.div`
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 0 760px 702.5px 0;
-    border-color: transparent #3A4CF1 transparent transparent;
-    transform: rotate(0deg);
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-`;
-export const DivTriangle = styled.div`
 
-`;
 // Texto grande do lado da div do formulário
 export const DivTextLeft = styled.div`
     width: 470px;
@@ -35,6 +28,7 @@ export const DivTextLeft = styled.div`
         font-weight: 400;
     }
 `;
+
 export const Icon = styled.div`
     width: 59px;
     height: 40px;
@@ -53,7 +47,6 @@ export const IconAndText = styled.div`
     width: 517px;
     margin-top: 145px;
     margin-left: 139px;
-    /* background-color: red; */
 `;
 
 // Div que contém o formulário
@@ -88,7 +81,7 @@ export const Formulario = styled.div`
         font-size: 16px;
         font-family: DM Sans;
         font-weight: 400;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
 `;
 
@@ -96,6 +89,7 @@ export const Inputs1 = styled.input`
     width: 530px;
     height: 45px;
     border-radius: 20px;
+    padding-left: 20px;
     border: 1px solid #AEAEAE;
     margin-left: 35px;
     outline: none;
@@ -128,6 +122,7 @@ export const NumTelInput = styled.input`
     width: 200px;
     height: 45px;
     border-radius: 20px;
+    padding-left: 20px;
     border: 1px solid #AEAEAE;
     outline: none;
 `;
@@ -136,6 +131,7 @@ export const EmailInput = styled.input`
     width: 310px;
     height: 45px;
     border-radius: 20px;
+    padding-left: 20px;
     outline: none;
     border: 1px solid #AEAEAE;
 `;
