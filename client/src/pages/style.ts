@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 
   h1 {
     font-size: 54px;
-    color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.subject};
     margin-top: 40px;
     text-align: center;
 

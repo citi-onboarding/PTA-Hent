@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
-
+    overflow-x: hidden;
     @media (max-width: 1080px) {
       font-size: 93.75%;
     }
@@ -21,6 +21,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
