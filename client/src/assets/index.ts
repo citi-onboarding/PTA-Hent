@@ -3,21 +3,23 @@ import Facebook from "./facebook.svg";
 import Instagram from "./instagram.svg";
 import Youtube from "./youtube.svg";
 import Hent from "./hent.svg";
+import Newspaper from "./newspaper.svg";
+import Key from "./key.svg";
+import Paper from "./paper.svg";
+import Library from "./library.svg";
+import Triangle from "./triangle.svg";
+import Assinatura from "./ImageAboutUs1.svg";
+import Detalhes from "./ImageAboutUs2.svg";
 
+export { Triangle };
+export { Assinatura };
+export { Detalhes };
+export { Newspaper };
+export { Key };
+export { Paper };
+export { Library };
 export {Hent_Footer};
 export {Facebook};
 export {Instagram};
 export {Youtube};
 export { Hent };
-
-import Triangle from "./triangle.svg";
-
-export { Triangle };
-
-import Assinatura from "./ImageAboutUs1.svg";
-
-export { Assinatura };
-
-import Detalhes from "./ImageAboutUs2.svg";
-
-export { Detalhes };

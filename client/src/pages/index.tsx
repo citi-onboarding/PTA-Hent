@@ -1,5 +1,6 @@
 import React from "react";
 import { HomeContainer } from "./style";
+import Services from "./Services";
 import { Footer } from "./Footer";
 import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <AboutUs />
       <WanttoUse />
+      <Services />
       <Footer />
     </HomeContainer>
   );
