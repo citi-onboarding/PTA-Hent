@@ -14,6 +14,7 @@ export const TopPhrase = styled.div`
   padding-right: 40px;
   padding-left: 30px;
   font-size: 40px;
+  padding-bottom: 84px;
   color: ${(props) => props.theme.colors.subject};
 `;
 
