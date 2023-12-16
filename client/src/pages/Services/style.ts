@@ -4,6 +4,7 @@ export const BlockContainer = styled.div`
   text-align: left;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 125px;
 `;
 
 export const TopPhrase = styled.div`
@@ -12,17 +13,18 @@ export const TopPhrase = styled.div`
   text-align: left;
   padding-right: 40px;
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 40px;
+  color: ${(props) => props.theme.colors.subject};
 `;
 
 export const ColumnsContainer = styled.div`
   display: flex;
   gap: 20px;
-  font-size: 10px;
+  font-size: 20px;
   padding: 20px;
   display: flex;
   flex-direction: grid;
-  align-items: center;
+  align-items: baseline;
 `;
 
 export const Column = styled.div`
@@ -47,24 +49,24 @@ export const ColumnIconKey = styled.img`
 export const ColumnIconPaper = styled.img`
   object-fit: fill;
   width: 79px;
-  height: 27px;
+  height: 80px;
 `;
 
 export const ColumnIconLibrary = styled.img`
   object-fit: fill;
   width: 79px;
-  height: 27px;
+  height: auto;
 `;
 
 export const ColumnTitle = styled.div`
   font-weight: 700;
   margin: 10px 0;
-  color: primary;
-
+  color: ${(props) => props.theme.colors.subject};
+  align-items: center;
 `;
 
 export const ColumnDescription = styled.div`
   font-weight: 400;
-  color: title;
-  wordWrap: 'break-word'
+  color: ${(props) => props.theme.colors.title};
+  wordwrap: "break-word";
 `;

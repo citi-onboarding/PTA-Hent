@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const BlockContainer = styled.div`
   display: flex;
@@ -6,13 +6,15 @@ export const BlockContainer = styled.div`
   padding-right: 120px;
   flex-direction: column;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 880px;
 `;
 
 export const TopPhrase = styled.div`
   text-align: center;
-  font-size: 20px;
-  color: #1A1A1A;
+  font-size: 40px;
+  color: #1a1a1a;
   margin-bottom: 20px;
   margin-top: 40px;
 `;
@@ -23,7 +25,6 @@ export const ColumnsContainer = styled.div`
   margin-top: 20px;
   margin-bottom: 60px;
   padding-left: 30px;
-  padding-right: 30px;
 `;
 
 export const Column1 = styled.div`
@@ -36,6 +37,7 @@ export const Column2 = styled.div`
   padding: 10px;
   margin-left: 20px;
 `;
+
 export const DescriptionTitle = styled.div`
   display: flex;
   justify-content: center;
@@ -47,6 +49,7 @@ export const DescriptionTitle = styled.div`
 export const Title = styled.h4`
   margin: 0;
   color: #606060;
+  font-size: 30px;
 `;
 
 export const Description = styled.div`
@@ -61,12 +64,15 @@ export const Description = styled.div`
 export const IconContainer = styled.div`
   margin-left: 15px;
   margin-right: -15px;
+  padding-bottom: 45px;
+  width: 150%;
 `;
 
 export const ColumnIcon = styled.img`
-  width: 20px;
-  height: 20px;
+  height: 30px;
   margin-right: 25px;
+  position: relative;
+  top: 25px;
 `;
 
 export const TextContainer = styled.div`
@@ -75,15 +81,16 @@ export const TextContainer = styled.div`
 `;
 
 export const ColumnIconHent = styled.img`
-  width: 20px;
-  height: 20px;
+  width: 160%;
+  height: 27px;
+  justify-content: left;
   margin-left: -20px;
-  margin-right: -15px;
+  margin-right: -45px;
 `;
 
 export const ColumnDescription = styled.div`
   margin: 0;
-  font-size: 9px;
+  font-size: 18px;
   color: #606060;
   margin-left: -10px;
 `;

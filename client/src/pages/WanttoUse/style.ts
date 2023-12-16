@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContentAccess = styled.div`
   margin-top: 180px;
   width: 100%;
+  padding-bottom: 109px;
 `;
 
 export const TextSection1 = styled.text`
