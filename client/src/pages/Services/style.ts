@@ -4,21 +4,27 @@ export const BlockContainer = styled.div`
   text-align: left;
   padding-left: 100px;
   padding-right: 100px;
+  height: 350px;
 `;
 
 export const TopPhrase = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 30px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 60px;
   text-align: left;
   padding-right: 40px;
   padding-left: 30px;
   font-size: 20px;
+  color: black;
 `;
 
 export const ColumnsContainer = styled.div`
   display: flex;
   gap: 20px;
-  font-size: 10px;
+  font-size: 14px;
   padding: 20px;
   display: flex;
   flex-direction: grid;
@@ -34,26 +40,23 @@ export const Column = styled.div`
 
 export const ColumnIconNewspaper = styled.img`
   object-fit: fill;
-  width: 76px;
   height: auto;
 `;
 
 export const ColumnIconKey = styled.img`
   object-fit: fill;
-  width: 76px;
   height: auto;
 `;
 
 export const ColumnIconPaper = styled.img`
   object-fit: fill;
-  width: 79px;
-  height: 27px;
+  height: auto;
+  max-height: 70px;
 `;
 
 export const ColumnIconLibrary = styled.img`
   object-fit: fill;
-  width: 79px;
-  height: 27px;
+  height: auto;
 `;
 
 export const ColumnTitle = styled.div`

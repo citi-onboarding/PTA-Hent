@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const BlockContainer = styled.div`
   display: flex;
+  margin: 20px;
+  width: 100%;
+  margin-top: 120px;
   padding-left: 120px;
   padding-right: 120px;
   flex-direction: column;
